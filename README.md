@@ -1,8 +1,6 @@
-# oneinall
-
 # oneinall  
 A compact and reproducible single-sample GSEA toolkit for R
-
+![res](https://github.com/cdesterke/oneinall/blog/main/02_plot.png)
 ![R-CMD-check](https://img.shields.io/badge/R%20CMD%20check-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
