@@ -139,13 +139,18 @@ print(p6$plot)
 
     Classical GSEA enrichment curve
 
+    Ranking gene table
+    
+    Bootstrap validation against null distribution
+    
+    Threshold-aware ranking metric
+    
     Enrichment curve with leading-edge highlighting
 
-    Bootstrap null distribution
+    
 
-    Threshold-aware ranking metric
 
-    Leading-edge gene table
+    
 
 
 ---
