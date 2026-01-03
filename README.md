@@ -91,3 +91,42 @@ Full GSEA-style plot including:
 ✔ validate_gsea_above_bootstrap()
 
 Bootstrap validation of enrichment for genes above a threshold.
+
+🧪 Full example 
+
+```r
+library(oneinall)
+
+# Données simulées
+expr <- rnorm(1000)
+names(expr) <- paste0("Gene", 1:1000)
+geneset <- sample(names(expr), 50)
+
+# 1. Calcul GSEA
+res <- gsea_single_vector(expr, geneset)
+
+# 2. Plot GSEA classique
+p1 <- plot_gsea_single(res, threshold = 0)
+print(p1$plot)
+
+# 3. Validation bootstrap
+v <- validate_gsea_above_bootstrap(res, threshold = 0)
+print(v$plot)
+
+# 4. Plot du ranking metric (threshold-aware)
+p4 <- plot_rank_metric_thresholded(
+  result = res,
+  threshold = 0,
+  title = "Rank metric (threshold-aware)"
+)
+print(p4)
+
+# 5. Extraction du leading-edge
+le <- extract_leading_edge(res)
+head(le)
+
+# 6. Plot GSEA complet avec leading-edge
+p6 <- plot_gsea_with_leading_edge(res)
+print(p6$plot)
+
+```
