@@ -36,61 +36,64 @@ devtools::install_github("cdesterke/oneinall")
 
 ---
 
-🧠 Main Features
-✔ gsea_single_vector()
+🚀 Main Features
 
-Computes a single-sample GSEA score:
+1. gsea_single_vector() — Compute single-sample GSEA
+
+    Enrichment Score (ES)
+
+    Normalized ES (NES)
+
+    Empirical p-value via permutations
 
     Running ES curve
 
-    ES, NES
+    Gene set membership tracking
 
-    Permutation-based p-value
-
-    Sorted ranking
-
-    Hit vector
-
-    Leading-edge implicitly defined
-
-✔ plot_gsea_single()
-
-Generates a classical GSEA plot:
+2. plot_gsea_single() — Classical GSEA enrichment plot
 
     Running ES curve
 
     Hit positions
 
-    ES / NES / p-value annotation
+    Threshold‑aware gene classification
 
-✔ plot_rank_metric_thresholded()
+3. validate_gsea_above_bootstrap() — Bootstrap enrichment validation
 
-Visualizes the ranking metric with:
+    Null distribution of random gene sets
 
-    Hit bars
+    Empirical p-value
 
-    Threshold-aware coloring
+    Annotated histogram
 
-    Max ES position
+4. plot_rank_metric_thresholded() — Threshold-aware ranking metric plot
 
-✔ extract_leading_edge()
+(This is the step that was missing in the previous README.)
 
-Extracts the leading-edge subset automatically.
-✔ plot_gsea_with_leading_edge()
+This visualization shows:
 
-Full GSEA-style plot including:
+    the ranking metric across the transcriptome
+
+    vertical bars for gene set members
+
+    color‑coding based on whether each gene is above or below a user‑defined threshold
+
+It provides a complementary view to the running ES curve by showing how strongly each gene contributes to the ranking metric.
+5. extract_leading_edge() — Leading-edge extraction
+
+    Identifies genes contributing to the maximum absolute ES
+
+    Returns a structured table with ranking and ES information
+
+6. plot_gsea_with_leading_edge() — Full GSEA plot with leading-edge highlighting
 
     Running ES
 
-    Hit bars
+    Hit positions
 
-    Highlighted leading-edge genes
+    Leading-edge bars
 
-    ES / NES / p-value annotation
-
-✔ validate_gsea_above_bootstrap()
-
-Bootstrap validation of enrichment for genes above a threshold.
+---
 
 🧪 Full example 
 
@@ -130,3 +133,19 @@ p6 <- plot_gsea_with_leading_edge(res)
 print(p6$plot)
 
 ```
+---
+
+📊 Available Visualizations
+
+    Classical GSEA enrichment curve
+
+    Enrichment curve with leading-edge highlighting
+
+    Bootstrap null distribution
+
+    Threshold-aware ranking metric
+
+    Leading-edge gene table
+
+
+---
