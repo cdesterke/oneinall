@@ -66,7 +66,6 @@ devtools::install_github("cdesterke/oneinall")
 
 4. plot_rank_metric_thresholded() — Threshold-aware ranking metric plot
 
-(This is the step that was missing in the previous README.)
 
 This visualization shows:
 
@@ -77,6 +76,7 @@ This visualization shows:
     color‑coding based on whether each gene is above or below a user‑defined threshold
 
 It provides a complementary view to the running ES curve by showing how strongly each gene contributes to the ranking metric.
+
 5. extract_leading_edge() — Leading-edge extraction
 
     Identifies genes contributing to the maximum absolute ES
