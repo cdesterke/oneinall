@@ -33,3 +33,61 @@ Install from GitHub:
 # install.packages("devtools")
 devtools::install_github("cdesterke/oneinall")
 ```
+
+---
+
+🧠 Main Features
+✔ gsea_single_vector()
+
+Computes a single-sample GSEA score:
+
+    Running ES curve
+
+    ES, NES
+
+    Permutation-based p-value
+
+    Sorted ranking
+
+    Hit vector
+
+    Leading-edge implicitly defined
+
+✔ plot_gsea_single()
+
+Generates a classical GSEA plot:
+
+    Running ES curve
+
+    Hit positions
+
+    ES / NES / p-value annotation
+
+✔ plot_rank_metric_thresholded()
+
+Visualizes the ranking metric with:
+
+    Hit bars
+
+    Threshold-aware coloring
+
+    Max ES position
+
+✔ extract_leading_edge()
+
+Extracts the leading-edge subset automatically.
+✔ plot_gsea_with_leading_edge()
+
+Full GSEA-style plot including:
+
+    Running ES
+
+    Hit bars
+
+    Highlighted leading-edge genes
+
+    ES / NES / p-value annotation
+
+✔ validate_gsea_above_bootstrap()
+
+Bootstrap validation of enrichment for genes above a threshold.
