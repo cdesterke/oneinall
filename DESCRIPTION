@@ -1,0 +1,20 @@
+Package: oneinall
+Type: Package
+Title: Select Best Top Ranked Genes by GSEA
+Version: 1.0.0
+Authors@R: 
+    person("Christophe", "Desterke", 
+           email = "christophe.desterke@gmail.com", 
+           role = c("aut", "cre"))
+Description: Allows selection of the best up-ranked genes by GSEA 
+    from a gene set in a single transcriptome sample. After gene set 
+    enrichment analysis, it is possible to select top ranked genes using 
+    two methods: ranking score threshold validated by bootstrapping or 
+    leading edge analysis.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    rlang
+RoxygenNote: 7.3.2
