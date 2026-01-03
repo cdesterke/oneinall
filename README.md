@@ -141,21 +141,21 @@ print(p6$plot)
 
     Ranking gene table
 
-![res](https://github.com/cdesterke/oneinall/blog/main/03_gene_table.png)
+![res](https://github.com/cdesterke/oneinall/tree/main/03_gene_table.png)
     
     Bootstrap validation against null distribution
 
-![res](https://github.com/cdesterke/oneinall/blog/main/04_plot.png)
+![res](https://github.com/cdesterke/oneinall/tree/main/04_plot.png)
     
     Threshold-aware ranking metric
 
 
-![res](https://github.com/cdesterke/oneinall/blog/main/04_plotMetric.png)
+![res](https://github.com/cdesterke/oneinall/tree/main/04_plotMetric.png)
     
     Enrichment curve with leading-edge highlighting
 
 
-![res](https://github.com/cdesterke/oneinall/blog/main/06_plotLE.png)
+![res](https://github.com/cdesterke/oneinall/tree/main/06_plotLE.png)
 
     
 
