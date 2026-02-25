@@ -137,19 +137,19 @@ print(p6$plot)
 📊 Available Visualizations
 
      
-![02_plot](https://github.com/cdesterke/oneinall/tree/main/02_plot.png) Classical GSEA enrichment curve  
+![02_plot](https://github.com/cdesterke/oneinall/blob/main/02_plot.png) Classical GSEA enrichment curve  
 
     
-![02_table](https://github.com/cdesterke/oneinall/tree/main/03_gene_table.png) Ranking gene table
+![02_table](https://github.com/cdesterke/oneinall/blob/main/03_gene_table.png) Ranking gene table
     
    
-![03_bootstapping](https://github.com/cdesterke/oneinall/tree/main/04_plot.png) Bootstrap validation against null distribution
+![03_bootstapping](https://github.com/cdesterke/oneinall/blob/main/04_plot.png) Bootstrap validation against null distribution
     
    
-![04_rank](https://github.com/cdesterke/oneinall/tree/main/04_plotMetric.png) Threshold-aware ranking metric
+![04_rank](https://github.com/cdesterke/oneinall/blob/main/04_plotMetric.png) Threshold-aware ranking metric
     
     
-![06_LE](https://github.com/cdesterke/oneinall/tree/main/06_plotLE.png) Enrichment curve with leading-edge highlighting
+![06_LE](https://github.com/cdesterke/oneinall/blob/main/06_plotLE.png) Enrichment curve with leading-edge highlighting
 
     
 
